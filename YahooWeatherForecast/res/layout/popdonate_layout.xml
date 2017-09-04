@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="#FFFFFF">
+    
+    <TextView android:id="@+id/dlgMsg"
+                    android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:text="@string/dlg_donate_msg"
+    				android:layout_centerHorizontal="true"    				
+    				android:layout_margin="15dp"    
+    				android:textSize="20dp"				
+    				
+    />
+    
+    
+    <Button android:id="@+id/btnDonate"
+                    android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:layout_centerHorizontal="true"    
+    				android:text="@string/dlg_donate_ok"
+    				android:layout_below="@+id/dlgMsg"
+    				android:layout_marginTop="10dp"
+    				android:textSize="14dp"
+         />
+    
+
+    <Button android:id="@+id/btnCancelDonate"
+         		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@id/btnDonate"
+        		android:layout_marginTop="20dp"
+        		android:text="@string/dlg_donate_cancel"
+        />
+    
+</RelativeLayout>
+
